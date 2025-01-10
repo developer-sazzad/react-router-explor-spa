@@ -10,7 +10,7 @@ const UserDetails = () => {
             <h4>{username}</h4>
             <p>Email : {email}</p>
             <p>Phone : {phone}</p>
-            <p>Website : <a href={website}>{website}</a></p>
+            <p>Website : <a href='#' >{website}</a></p>
         </div>
     );
 };
